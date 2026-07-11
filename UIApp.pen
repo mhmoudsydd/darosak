@@ -1,0 +1,3532 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hFq3a",
+      "x": 0,
+      "y": -880,
+      "name": "Component/StatusBar",
+      "reusable": true,
+      "width": 390,
+      "height": 62,
+      "fill": "$surface-primary",
+      "padding": [
+        0,
+        24
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "wRiCO",
+          "name": "Time",
+          "fill": "$foreground-primary",
+          "content": "9:41",
+          "fontFamily": "$font-body",
+          "fontSize": 15,
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "jz6tE",
+          "name": "Icons",
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "zhqYI",
+              "name": "Signal",
+              "width": 16,
+              "height": 16,
+              "icon": "signal",
+              "library": "lucide",
+              "fill": "$foreground-primary"
+            },
+            {
+              "type": "icon",
+              "id": "NOo74",
+              "name": "Wifi",
+              "width": 16,
+              "height": 16,
+              "icon": "wifi",
+              "library": "lucide",
+              "fill": "$foreground-primary"
+            },
+            {
+              "type": "icon",
+              "id": "eBhwH",
+              "name": "Battery",
+              "width": 22,
+              "height": 12,
+              "icon": "battery",
+              "library": "lucide",
+              "fill": "$foreground-primary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MCadc",
+      "x": 0,
+      "y": -780,
+      "name": "Component/AppHeader",
+      "reusable": true,
+      "width": 390,
+      "height": 56,
+      "fill": "$surface-primary",
+      "padding": [
+        0,
+        16
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "lmeP2",
+          "name": "BackButton",
+          "width": 24,
+          "height": 24,
+          "icon": "arrow-left",
+          "library": "lucide",
+          "fill": "$foreground-primary"
+        },
+        {
+          "type": "text",
+          "id": "B05Kg",
+          "name": "Title",
+          "fill": "$foreground-primary",
+          "content": "Screen Title",
+          "fontFamily": "$font-heading",
+          "fontSize": 18,
+          "fontWeight": "bold"
+        },
+        {
+          "type": "icon",
+          "id": "GG2Uf",
+          "name": "ActionButton",
+          "width": 24,
+          "height": 24,
+          "icon": "menu",
+          "library": "lucide",
+          "fill": "$foreground-primary"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hkFc4",
+      "x": 0,
+      "y": -680,
+      "name": "Component/ButtonPrimary",
+      "reusable": true,
+      "width": 358,
+      "height": 48,
+      "fill": "$accent-primary",
+      "cornerRadius": "$rounded-full",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "doP12",
+          "name": "Label",
+          "fill": "#FFFFFF",
+          "content": "Action",
+          "fontFamily": "$font-body",
+          "fontSize": 15,
+          "fontWeight": "bold"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HJ4iq",
+      "x": 0,
+      "y": -580,
+      "name": "Component/InputField",
+      "reusable": true,
+      "width": 358,
+      "height": 72,
+      "layout": "vertical",
+      "gap": 6,
+      "children": [
+        {
+          "type": "text",
+          "id": "o7DSd",
+          "name": "LabelText",
+          "fill": "$foreground-secondary",
+          "content": "Label",
+          "fontFamily": "$font-body",
+          "fontSize": 13,
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "RfGUE",
+          "name": "Box",
+          "width": "fill_container",
+          "height": 44,
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-md",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "C7Ldw8",
+              "name": "ValueText",
+              "fill": "$foreground-muted",
+              "content": "Enter value...",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "R5oOMQ",
+      "x": 0,
+      "y": -480,
+      "name": "Component/TabBar",
+      "reusable": true,
+      "width": 390,
+      "height": 80,
+      "padding": [
+        0,
+        16
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mP2bo",
+          "name": "Capsule",
+          "width": 358,
+          "height": 60,
+          "fill": "#FFFFFFD0",
+          "cornerRadius": "$rounded-full",
+          "effect": [
+            {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#00000008",
+              "offset": {
+                "x": 0,
+                "y": 1
+              },
+              "blur": 3
+            },
+            {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#0000000a",
+              "offset": {
+                "x": 0,
+                "y": 8
+              },
+              "blur": 24
+            }
+          ],
+          "padding": [
+            0,
+            12
+          ],
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "r7ILX",
+              "name": "TabHome",
+              "layout": "vertical",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "HzI5Z",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "layout-grid",
+                  "library": "lucide",
+                  "fill": "$accent-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "lZT6c",
+                  "name": "Label",
+                  "fill": "$accent-primary",
+                  "content": "Home",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TOpS6",
+              "name": "TabMaterials",
+              "layout": "vertical",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "hnSaC",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "book-open",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "bQyn7",
+                  "name": "Label",
+                  "fill": "$foreground-muted",
+                  "content": "Lessons",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n0DiB",
+              "name": "TabProfile",
+              "layout": "vertical",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "uQdfN",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "user",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "TbBFd",
+                  "name": "Label",
+                  "fill": "$foreground-muted",
+                  "content": "Profile",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DUfW1",
+      "x": 880,
+      "y": -880,
+      "name": "Screen_Auth",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "LEffC",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "type": "frame",
+          "id": "oS49Z",
+          "name": "WelcomeContainer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            16,
+            12,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "fICGY",
+              "name": "LogoIcon",
+              "width": 64,
+              "height": 64,
+              "icon": "graduation-cap",
+              "library": "lucide",
+              "fill": "$accent-primary"
+            },
+            {
+              "type": "text",
+              "id": "w5UUa",
+              "name": "LogoText",
+              "fill": "$foreground-primary",
+              "content": "Darsak",
+              "fontFamily": "$font-heading",
+              "fontSize": 32,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "ULbLZ",
+              "name": "LogoSub",
+              "fill": "$foreground-secondary",
+              "content": "Access your educational portal",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W9TrD",
+          "name": "RoleSwitcher",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FMNIA",
+              "name": "BtnStudent",
+              "width": 170,
+              "height": 40,
+              "fill": "$accent-primary",
+              "cornerRadius": "$rounded-full",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FN1Nb",
+                  "name": "Label",
+                  "fill": "#FFFFFF",
+                  "content": "Student",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u99BA",
+              "name": "BtnTeacher",
+              "width": 170,
+              "height": 40,
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-full",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZCEFU",
+                  "name": "Label",
+                  "fill": "$foreground-secondary",
+                  "content": "Teacher",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pRwZb",
+          "name": "FormFields",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "id": "w04H0I",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "EmailField",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Email Address"
+                },
+                "C7Ldw8": {
+                  "content": "Enter your registered email",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "IhHz2",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "PasswordField",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Password"
+                },
+                "C7Ldw8": {
+                  "content": "••••••••",
+                  "fill": "$foreground-primary"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rHXrC",
+          "name": "ActionsContainer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            12,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "LRytE",
+              "type": "ref",
+              "ref": "hkFc4",
+              "name": "BtnLogin",
+              "descendants": {
+                "doP12": {
+                  "content": "Sign In"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "Bk7qB",
+              "name": "RegisterLink",
+              "fill": "$accent-primary",
+              "content": "Don't have an account? Sign up",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tXg7V",
+      "x": 1350,
+      "y": -880,
+      "name": "Screen_Teacher_List",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "S0RJH",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "bmmsa",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Teachers"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "xZjov",
+          "name": "SearchSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dUBA2",
+              "name": "SearchBar",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "$border-subtle",
+              "cornerRadius": "$rounded-md",
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "REjCc",
+                  "name": "SearchIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$foreground-secondary"
+                },
+                {
+                  "type": "text",
+                  "id": "W9m9r",
+                  "name": "SearchText",
+                  "fill": "$foreground-secondary",
+                  "content": "Search teachers or subjects...",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jWSL7",
+              "name": "FilterChips",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uMNBF",
+                  "name": "ChipAll",
+                  "fill": "$accent-primary",
+                  "cornerRadius": "$rounded-full",
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dawXi",
+                      "name": "Text",
+                      "fill": "#FFFFFF",
+                      "content": "All",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tPfzq",
+                  "name": "ChipMath",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-full",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TgZ6V",
+                      "name": "Text",
+                      "fill": "$foreground-secondary",
+                      "content": "Stage 1",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Hm054",
+                  "name": "ChipPhysics",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-full",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MyiHR",
+                      "name": "Text",
+                      "fill": "$foreground-secondary",
+                      "content": "Stage 2",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B0cDbp",
+          "name": "TeacherList",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ua600",
+              "name": "TeacherCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CUao7",
+                  "name": "Avatar",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "urlck",
+                      "name": "UserIcon",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a11tWE",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jT2DC",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Prof. Youssef Fayed",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ALoLT",
+                      "name": "Subject",
+                      "fill": "$foreground-secondary",
+                      "content": "Mathematics",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x9w1F",
+                      "name": "Detail",
+                      "fill": "$foreground-muted",
+                      "content": "Senior Instructor • 15 Yrs Exp",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "YkHHe",
+                  "name": "Arrow",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rZKQb",
+              "name": "TeacherCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KpV0S",
+                  "name": "Avatar",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "fdqSR",
+                      "name": "UserIcon",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f3Hdih",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BdEUG",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Dr. Mona El-Shami",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xGYhd",
+                      "name": "Subject",
+                      "fill": "$foreground-secondary",
+                      "content": "Physics",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LQedu",
+                      "name": "Detail",
+                      "fill": "$foreground-muted",
+                      "content": "Associate Professor • 8 Yrs Exp",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "IiQhY",
+                  "name": "Arrow",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T0W68k",
+              "name": "TeacherCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yuRPd",
+                  "name": "Avatar",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Z9jaUE",
+                      "name": "UserIcon",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tBOcQ",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kIkR3",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Eng. Ahmed Kamel",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Kg98o",
+                      "name": "Subject",
+                      "fill": "$foreground-secondary",
+                      "content": "Computer Science",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b4L6p",
+                      "name": "Detail",
+                      "fill": "$foreground-muted",
+                      "content": "Software Lead • 6 Yrs Exp",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "mFsZz",
+                  "name": "Arrow",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PzlJ8",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wj2pB",
+      "x": 1820,
+      "y": -880,
+      "name": "Screen_Teacher_Profile",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "mUyTf",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "D1yotZ",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Teacher Profile"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "t4N1gV",
+          "name": "ProfileCard",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Sd4aw",
+              "name": "BigAvatar",
+              "width": 80,
+              "height": 80,
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-full",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "U8lQtt",
+                  "name": "UserIcon",
+                  "width": 40,
+                  "height": 40,
+                  "icon": "user",
+                  "library": "lucide",
+                  "fill": "$accent-primary"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "K4lqNi",
+              "name": "Name",
+              "fill": "$foreground-primary",
+              "content": "Prof. Youssef Fayed",
+              "fontFamily": "$font-heading",
+              "fontSize": 20,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "ntGOb",
+              "name": "Role",
+              "fill": "$foreground-secondary",
+              "content": "Senior Mathematics Specialist",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "n48msV",
+              "name": "StatsRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rh02g",
+                  "name": "Rating",
+                  "fill": "$foreground-secondary",
+                  "content": "⭐ 4.9 Rating",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VSTPe",
+                  "name": "Divider",
+                  "fill": "$foreground-muted",
+                  "content": "•",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Y2VELY",
+                  "name": "Students",
+                  "fill": "$foreground-secondary",
+                  "content": "1,240 Students",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hCyv5",
+          "name": "ActionButtons",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WhPOj",
+              "name": "BtnMessage",
+              "width": 170,
+              "height": 40,
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-full",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g8jsu",
+                  "name": "Label",
+                  "fill": "$accent-primary",
+                  "content": "Message",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yxsew",
+              "name": "BtnUploadCert",
+              "width": 170,
+              "height": 40,
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-full",
+              "stroke": "$accent-primary",
+              "strokeWidth": 1.5,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ggnO5",
+                  "name": "Label",
+                  "fill": "$accent-primary",
+                  "content": "+ Certification",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yDdTU",
+          "name": "ProfileTabs",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "k3Gxr",
+              "name": "TabHeader",
+              "width": "fill_container",
+              "stroke": "$border-subtle",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "padding": [
+                0,
+                0,
+                6,
+                0
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xdVpL",
+                  "name": "Tab1",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pR09F",
+                      "name": "Label",
+                      "fill": "$accent-primary",
+                      "content": "Materials",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gSUML",
+                  "name": "Tab2",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6dm09",
+                      "name": "Label",
+                      "fill": "$foreground-muted",
+                      "content": "Posts",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OGmLQ",
+                  "name": "Tab3",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pxlLV",
+                      "name": "Label",
+                      "fill": "$foreground-muted",
+                      "content": "Certificates",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qP0JQ",
+              "name": "MaterialsTabList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "esecN",
+                  "name": "MaterialItem",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "padding": 12,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MPMXb",
+                      "name": "MInfo",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ft0Zl",
+                          "name": "Title",
+                          "fill": "$foreground-primary",
+                          "content": "Advanced Calculus II",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tRmGm",
+                          "name": "Stage",
+                          "fill": "$foreground-secondary",
+                          "content": "Secondary • Grade 12",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "fRNy4",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iwcm5",
+                  "name": "MaterialItem",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "padding": 12,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o8ubF",
+                      "name": "MInfo",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yWn0F",
+                          "name": "Title",
+                          "fill": "$foreground-primary",
+                          "content": "Linear Algebra & Vectors",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rIFEB",
+                          "name": "Stage",
+                          "fill": "$foreground-secondary",
+                          "content": "Secondary • Grade 11",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "hnpQY",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "XDvvV",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WoSDE",
+      "x": 2290,
+      "y": -880,
+      "name": "Screen_Student_Details",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "Y7AM5",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "l8Msr",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Student Details"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "N5KRH",
+          "name": "StudentProfile",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "t3Aznw",
+              "name": "Avatar",
+              "width": 56,
+              "height": 56,
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-full",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "y0p9FJ",
+                  "name": "UserIcon",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "user",
+                  "library": "lucide",
+                  "fill": "$accent-primary"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zMSGW",
+              "name": "Details",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aZDQ7",
+                  "name": "Name",
+                  "fill": "$foreground-primary",
+                  "content": "Sami Mansour",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "NcAGa",
+                  "name": "Info",
+                  "fill": "$foreground-secondary",
+                  "content": "Grade 10 • Math & Science Stream",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HEuGk",
+          "name": "StatsSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "l1mN6u",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Learning Metrics",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "nlt2k",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LZUVl",
+                  "name": "Card1",
+                  "width": 170,
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f122x",
+                      "name": "Label",
+                      "fill": "$foreground-secondary",
+                      "content": "Lessons Completed",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n3momP",
+                      "name": "Value",
+                      "fill": "$accent-primary",
+                      "content": "18 / 20",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H68fs8",
+                  "name": "Card2",
+                  "width": 170,
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ra0nf",
+                      "name": "Label",
+                      "fill": "$foreground-secondary",
+                      "content": "Average Grade",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qGhcj",
+                      "name": "Value",
+                      "fill": "$accent-primary",
+                      "content": "92% (A-)",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q37nJ",
+          "name": "DangerZone",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ujme6",
+              "name": "Header",
+              "fill": "#EF4444",
+              "content": "Danger Zone",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "lWMSG",
+              "name": "WarningBox",
+              "width": "fill_container",
+              "fill": "#FEF2F2",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "#FCA5A5",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ys27z",
+                  "name": "WarningText",
+                  "fill": "#991B1B",
+                  "content": "Deleting a student account is permanent and deletes all records, course progression, and analytics.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "L5AhpP",
+                  "name": "BtnDelete",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#EF4444",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sfhSt",
+                      "name": "Label",
+                      "fill": "#FFFFFF",
+                      "content": "Delete Student Profile",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "h8PqHB",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t9uSE0",
+      "x": 2760,
+      "y": -880,
+      "name": "Screen_Materials",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "v5Rd4",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "n0vmT",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Materials"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "a9Jcv",
+          "name": "GridSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "cqrrQ",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Categories",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "Awbb4",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DeMH7",
+                  "name": "Cat1",
+                  "width": 170,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$rounded-lg",
+                  "gap": 8,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "vJ90Z",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "binary",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oPXLu",
+                      "name": "TextWrap",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pWfvu",
+                          "name": "Name",
+                          "fill": "$foreground-primary",
+                          "content": "Mathematics",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qu5mp",
+                          "name": "Sub",
+                          "fill": "$foreground-secondary",
+                          "content": "6 Courses",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qhy6h",
+                  "name": "Cat2",
+                  "width": 170,
+                  "fill": "$border-subtle",
+                  "cornerRadius": "$rounded-lg",
+                  "gap": 8,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mM1Z2",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "atom",
+                      "library": "lucide",
+                      "fill": "$foreground-primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pB6KF",
+                      "name": "TextWrap",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZP1Mm",
+                          "name": "Name",
+                          "fill": "$foreground-primary",
+                          "content": "Sciences",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oeUGM",
+                          "name": "Sub",
+                          "fill": "$foreground-secondary",
+                          "content": "4 Courses",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bwopi",
+          "name": "CourseSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "eQP59",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Active Courses",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "PQvRI",
+              "name": "CourseCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "padding": 12,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CztIa",
+                  "name": "Info",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rR4bl",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Calculus I: Intro to Limits",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lA2Y1",
+                      "name": "Instructor",
+                      "fill": "$foreground-secondary",
+                      "content": "Instructor: Prof. Youssef Fayed",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "LyIIx",
+                  "name": "DeleteBtn",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "trash-2",
+                  "library": "lucide",
+                  "fill": "#EF4444"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "viREN",
+          "name": "CreationBox",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "h5HdS",
+              "name": "Header",
+              "fill": "$accent-primary",
+              "content": "Create New Material",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "id": "n8ABwZ",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "MaterialNameInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Material / Course Name"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. Organic Chemistry Intro",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "r2fWnW",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "MaterialStageInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Stage ID / Grade"
+                },
+                "C7Ldw8": {
+                  "content": "Grade 11 Science",
+                  "fill": "$foreground-primary"
+                }
+              }
+            },
+            {
+              "id": "MijWK",
+              "type": "ref",
+              "ref": "hkFc4",
+              "name": "BtnCreate",
+              "descendants": {
+                "doP12": {
+                  "content": "Add Material"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "zQeM9",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "K5HvAm",
+      "x": 3230,
+      "y": -880,
+      "name": "Screen_Lessons",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "fxh0K",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "RN838",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Course Syllabus"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "vKhZq",
+          "name": "CourseHeader",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "cornerRadius": "$rounded-xl",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "XOln5",
+              "name": "Title",
+              "fill": "$foreground-primary",
+              "content": "Calculus I: Intro to Limits",
+              "fontFamily": "$font-heading",
+              "fontSize": 16,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "gMVJi",
+              "name": "Meta",
+              "fill": "$foreground-secondary",
+              "content": "3 Syllabus Lessons • Mathematics • Grade 12",
+              "fontFamily": "$font-body",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E6AFI",
+          "name": "LessonList",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ib8Ta",
+              "name": "LessonRow",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "N365L",
+                  "name": "StatusIconFrame",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#DEF7EC",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "TW41O",
+                      "name": "StatusIcon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "#03543F"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kxxsh",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U0i5OO",
+                      "name": "Title",
+                      "fill": "$foreground-primary",
+                      "content": "L1: Introduction to Limits",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FJKTW",
+                      "name": "Duration",
+                      "fill": "$foreground-secondary",
+                      "content": "Duration: 45 mins",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "v4oaZV",
+                  "name": "DeleteBtn",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "trash-2",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hU7B2",
+              "name": "LessonRow",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U0gpx4",
+                  "name": "StatusIconFrame",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Odbpz",
+                      "name": "StatusIcon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "play",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S8wlD",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q80lK",
+                      "name": "Title",
+                      "fill": "$foreground-primary",
+                      "content": "L2: Calculating Limits Numerically",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cGz4j",
+                      "name": "Duration",
+                      "fill": "$foreground-secondary",
+                      "content": "Duration: 60 mins",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "W8RCdD",
+                  "name": "DeleteBtn",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "trash-2",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I1R1hV",
+              "name": "LessonRow",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "japbe",
+                  "name": "StatusIconFrame",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$border-subtle",
+                  "cornerRadius": "$rounded-full",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "W97md",
+                      "name": "StatusIcon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "lock",
+                      "library": "lucide",
+                      "fill": "$foreground-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p2134",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RKIv8",
+                      "name": "Title",
+                      "fill": "$foreground-primary",
+                      "content": "L3: One-Sided Limits & Infinity",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WLbdU",
+                      "name": "Duration",
+                      "fill": "$foreground-secondary",
+                      "content": "Duration: 50 mins",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "sjV8c",
+                  "name": "DeleteBtn",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "trash-2",
+                  "library": "lucide",
+                  "fill": "$foreground-muted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mV9Kz",
+          "name": "AddLessonForm",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "L2iur",
+              "name": "Header",
+              "fill": "$accent-primary",
+              "content": "Add New Lesson",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "id": "E5Cm23",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "LessonTitleInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Lesson Title"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. Limits Laws & Properties",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "auZvC",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "LessonDurationInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Duration (minutes)"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. 50",
+                  "fill": "$foreground-primary"
+                }
+              }
+            },
+            {
+              "id": "gGW0m",
+              "type": "ref",
+              "ref": "hkFc4",
+              "name": "BtnAddLesson",
+              "descendants": {
+                "doP12": {
+                  "content": "Add to Syllabus"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "iIeGr",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ocxKX",
+      "x": 3700,
+      "y": -880,
+      "name": "Screen_Exams",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "A6NM0F",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "ArfBH",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Exam Center"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "C3X7k",
+          "name": "ExamSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "fGrzu",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Active Exams",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "EWJDE",
+              "name": "ExamCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eUAHZ",
+                  "name": "CardTop",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F2svU",
+                      "name": "TitleBlock",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RI8Yw",
+                          "name": "Title",
+                          "fill": "$foreground-primary",
+                          "content": "Calculus I: Limits Midterm",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZCgXa",
+                          "name": "Meta",
+                          "fill": "$foreground-secondary",
+                          "content": "10 Questions • 60 mins • Prof. Youssef",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "r3Jv5",
+                      "name": "DeleteBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "trash-2",
+                      "library": "lucide",
+                      "fill": "$foreground-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RVEYg",
+                  "name": "CardActions",
+                  "width": "fill_container",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m3J5q6",
+                      "name": "BtnSolve",
+                      "fill": "$accent-primary",
+                      "cornerRadius": "$rounded-full",
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DGKmr",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "Solve Exam",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o728BJ",
+          "name": "LiveExam",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "oqyTQ",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Ongoing: Chapter 1 Quiz",
+              "fontFamily": "$font-heading",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "f4szYy",
+              "name": "Question",
+              "fill": "$foreground-primary",
+              "content": "Q1. Find the limit of (x^2 - 4)/(x - 2) as x approaches 2.",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "vqhZJ",
+              "name": "OptionsWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sUMe9",
+                  "name": "OptA",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-md",
+                  "stroke": "$accent-primary",
+                  "strokeWidth": 1.5,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kKNmg",
+                      "name": "Checked",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "circle-check",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aHf0j",
+                      "name": "Text",
+                      "fill": "$foreground-primary",
+                      "content": "A) 4",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vpbHP",
+                  "name": "OptB",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": "$rounded-md",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "o6KyrD",
+                      "name": "Unchecked",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "circle",
+                      "library": "lucide",
+                      "fill": "$foreground-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k40QNo",
+                      "name": "Text",
+                      "fill": "$foreground-secondary",
+                      "content": "B) 2",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IF6vi",
+          "name": "BuildExam",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "H8yezx",
+              "name": "Header",
+              "fill": "$accent-primary",
+              "content": "Build New Exam",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "id": "XpUHb",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "ExamTitleInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Exam Title"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. Limits Laws & Properties Quiz",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "rTlx7",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "ExamQuestionsInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Number of Questions"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. 10",
+                  "fill": "$foreground-primary"
+                }
+              }
+            },
+            {
+              "id": "Y0VinY",
+              "type": "ref",
+              "ref": "hkFc4",
+              "name": "BtnBuild",
+              "descendants": {
+                "doP12": {
+                  "content": "Create & Publish Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "xluHI",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "y9qz1",
+      "x": 4170,
+      "y": -880,
+      "name": "Screen_Sources",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "uCAZE",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "Dnvye",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Course Sources"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "q9Dpy",
+          "name": "UploadZone",
+          "width": "fill_container",
+          "fill": "#F5F3FF",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$accent-primary",
+          "strokeWidth": 1.5,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 20,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "KWrmr",
+              "name": "UploadIcon",
+              "width": 36,
+              "height": 36,
+              "icon": "cloud-upload",
+              "library": "lucide",
+              "fill": "$accent-primary"
+            },
+            {
+              "type": "text",
+              "id": "m2uJKi",
+              "name": "PromptText",
+              "fill": "$foreground-primary",
+              "content": "Upload Course PDF",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "KfguC",
+              "name": "SubText",
+              "fill": "$foreground-secondary",
+              "content": "Drag & drop file or tap to browse (max 25MB)",
+              "fontFamily": "$font-caption",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LKwDN",
+          "name": "SourceListSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IXJUQ",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Uploaded Syllabi & PDFs",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "LvVDJ",
+              "name": "SourceItem",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "C5csDm",
+                  "name": "FileIcon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "file-text",
+                  "library": "lucide",
+                  "fill": "$accent-primary"
+                },
+                {
+                  "type": "frame",
+                  "id": "h04umk",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "olVVS",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Calculus_Limits_Syllabus.pdf",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hCB5k",
+                      "name": "Size",
+                      "fill": "$foreground-secondary",
+                      "content": "4.2 MB",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e9iT1u",
+                  "name": "Btns",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GWoYQ",
+                      "name": "ViewBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "eye",
+                      "library": "lucide",
+                      "fill": "$foreground-secondary"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Pl3s4",
+                      "name": "DeleteBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "trash-2",
+                      "library": "lucide",
+                      "fill": "#EF4444"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gWgOQ",
+              "name": "SourceItem",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "UZEdl",
+                  "name": "FileIcon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "file-text",
+                  "library": "lucide",
+                  "fill": "$accent-primary"
+                },
+                {
+                  "type": "frame",
+                  "id": "e9U5Uh",
+                  "name": "Info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k71SsJ",
+                      "name": "Name",
+                      "fill": "$foreground-primary",
+                      "content": "Limits_Practise_Problems.pdf",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NbMaM",
+                      "name": "Size",
+                      "fill": "$foreground-secondary",
+                      "content": "1.8 MB",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fAnvO",
+                  "name": "Btns",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "EIu0Y",
+                      "name": "ViewBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "eye",
+                      "library": "lucide",
+                      "fill": "$foreground-secondary"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "y8UaRW",
+                      "name": "DeleteBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "trash-2",
+                      "library": "lucide",
+                      "fill": "#EF4444"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fxmuf",
+          "name": "DocViewSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zsthN",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Active Viewer",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "B54iz",
+              "name": "ViewerFrame",
+              "width": "fill_container",
+              "height": 120,
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": 16,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QBO83",
+                  "name": "ViewerDocTitle",
+                  "fill": "$foreground-primary",
+                  "content": "Viewing: Calculus_Limits_Syllabus.pdf",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "CSDqJ",
+                  "name": "ViewerContentPlaceholder",
+                  "fill": "$foreground-secondary",
+                  "content": "Page 1: 1.1 Understanding limits of functions, tangent lines, and rate of change...",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "K28wG",
+                  "name": "ViewerBottom",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gwSun",
+                      "name": "PageNum",
+                      "fill": "$foreground-muted",
+                      "content": "Page 1 of 12",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mslaq",
+                      "name": "DownloadLink",
+                      "fill": "$accent-primary",
+                      "content": "Download PDF",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 11,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jbE3s",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "L8fGud",
+      "x": 4640,
+      "y": -880,
+      "name": "Screen_Feed",
+      "clip": true,
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "id": "sESOv",
+          "type": "ref",
+          "ref": "hFq3a",
+          "name": "StatusBarInstance"
+        },
+        {
+          "id": "b8y7w",
+          "type": "ref",
+          "ref": "MCadc",
+          "name": "AppHeaderInstance",
+          "descendants": {
+            "B05Kg": {
+              "content": "Updates & Feed"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "QEaKs",
+          "name": "CreatePostBox",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "RlqTX",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Share an Update",
+              "fontFamily": "$font-heading",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "uQ5c4",
+              "name": "InputArea",
+              "width": "fill_container",
+              "height": 60,
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-md",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "padding": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bOpY9",
+                  "name": "PlaceholderText",
+                  "fill": "$foreground-muted",
+                  "content": "Type announcements, updates or guidelines...",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sS96o",
+              "name": "PostActions",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "QuZrX",
+                  "name": "AttachIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "paperclip",
+                  "library": "lucide",
+                  "fill": "$foreground-secondary"
+                },
+                {
+                  "type": "frame",
+                  "id": "x7dKo",
+                  "name": "BtnPublish",
+                  "fill": "$accent-primary",
+                  "cornerRadius": "$rounded-full",
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qSDuv",
+                      "name": "Label",
+                      "fill": "#FFFFFF",
+                      "content": "Post",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bb84P",
+          "name": "FeedSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ZifcR",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Class Feed",
+              "fontFamily": "$font-heading",
+              "fontSize": 15,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "h2AIf3",
+              "name": "PostCard",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": "$rounded-xl",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u8NLBf",
+                  "name": "PostHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VyZAv",
+                      "name": "AuthorWrap",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IB8QO",
+                          "name": "Avatar",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "$surface-secondary",
+                          "cornerRadius": "$rounded-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "z5zCy",
+                              "name": "UserIcon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "user",
+                              "library": "lucide",
+                              "fill": "$accent-primary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sol3K",
+                          "name": "Info",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "f3XMW",
+                              "name": "Name",
+                              "fill": "$foreground-primary",
+                              "content": "Prof. Youssef Fayed",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 12,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OBx6b",
+                              "name": "Time",
+                              "fill": "$foreground-muted",
+                              "content": "2 hours ago",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "w1T1x",
+                      "name": "DeleteBtn",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "trash-2",
+                      "library": "lucide",
+                      "fill": "#EF4444"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "O0glzr",
+                  "name": "BodyText",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Please ensure to solve the chapter 1 quiz. It covers the limit definitions and calculating limits. It will close on Sunday night.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p2iez",
+          "name": "CertVerification",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "cornerRadius": "$rounded-xl",
+          "stroke": "$border-subtle",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "ryE2e",
+              "name": "Header",
+              "fill": "$foreground-primary",
+              "content": "Professional Credentials",
+              "fontFamily": "$font-heading",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "id": "jxr3e",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "CertTitleInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Certificate Title"
+                },
+                "C7Ldw8": {
+                  "content": "e.g. Master's in Mathematics",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "FHZtP",
+              "type": "ref",
+              "ref": "HJ4iq",
+              "name": "CertFileInput",
+              "descendants": {
+                "o7DSd": {
+                  "content": "Upload Credential Document (PDF/JPG)"
+                },
+                "C7Ldw8": {
+                  "content": "Browse credential file...",
+                  "fill": "$foreground-muted"
+                }
+              }
+            },
+            {
+              "id": "rLwkv",
+              "type": "ref",
+              "ref": "hkFc4",
+              "name": "BtnSubmitCert",
+              "descendants": {
+                "doP12": {
+                  "content": "Submit for Verification"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "FLwRA",
+          "type": "ref",
+          "ref": "R5oOMQ",
+          "name": "TabBarInstance"
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "surface-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#FDE2D9"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#4B5563"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#9CA3AF"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "accent-primary": {
+      "type": "color",
+      "value": "#7B61FF"
+    },
+    "accent-secondary": {
+      "type": "color",
+      "value": "#003322"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Funnel Sans"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-caption": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "rounded-md": {
+      "type": "number",
+      "value": 6
+    },
+    "rounded-lg": {
+      "type": "number",
+      "value": 8
+    },
+    "rounded-xl": {
+      "type": "number",
+      "value": 12
+    },
+    "rounded-full": {
+      "type": "number",
+      "value": 9999
+    }
+  },
+  "fileToken": "b330563b-4a3d-4e36-b547-f1908b85af39"
+}
