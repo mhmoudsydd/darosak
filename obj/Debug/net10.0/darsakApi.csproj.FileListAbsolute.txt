@@ -110,3 +110,12 @@ D:\dot net-projects\darsakApi\obj\Debug\net10.0\darsakApi.genruntimeconfig.cache
 D:\dot net-projects\darsakApi\obj\Debug\net10.0\ref\darsakApi.dll
 D:\dot net-projects\darsakApi\bin\Debug\net10.0\darsakApi.staticwebassets.runtime.json
 D:\dot net-projects\darsakApi\bin\Debug\net10.0\skills-lock.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\web.config
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\web.config
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\appsettings.Development.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\appsettings.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\darsakApi.deps.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\darsakApi.runtimeconfig.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\darsakApi.staticwebassets.endpoints.json
+D:\dot net-projects\darsakApi\bin\Debug\net10.0\dist\skills-lock.json
+D:\dot net-projects\darsakApi\obj\Debug\net10.0\darsakApi.sourcelink.json

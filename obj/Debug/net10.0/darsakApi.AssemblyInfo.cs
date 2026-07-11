@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("darsakApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29776143002f34212b1f3156fea8d138c031ae5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("darsakApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("darsakApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
