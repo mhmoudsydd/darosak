@@ -1,0 +1,11 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# IDE files
+.vs/
+.vscode/
+.qodo/
+.agents/
+.kilo/
+.kilocode/
